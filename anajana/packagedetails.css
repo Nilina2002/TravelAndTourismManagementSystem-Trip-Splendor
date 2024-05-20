@@ -1,0 +1,32 @@
+/*  Registration Number: IT23386518
+    Name: A.J.Liyanagamage          */
+
+.mainheader {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+table {
+    width: 30%;
+    border-collapse: collapse;
+    position: center;
+}
+
+th {
+    background-color: #a12525;
+    padding: 30px;
+    text-align: center;
+}
+
+td {
+    padding: 20px;
+    border-bottom: 1px solid rgb(216, 96, 96);
+    background-color: rgb(233, 147, 147);
+}
+
+tr:nth-child(even) {
+    background-color: #124114;
+}

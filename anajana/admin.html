@@ -1,0 +1,201 @@
+<!--    Registration Number: IT23386518
+        Name: A.J.Liyanagamage           -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!---Admin Page CSS--->
+    <link rel="stylesheet" href="admin.css">
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Trips</a></li>
+                    <li><a href="">Review</a></li>
+                    <li><a href="">More</a></li>
+                </ul>
+            </div>
+        
+        </nav>
+
+<!-- Admin Page Content Starts From Here -->
+
+        <section class="admincontent">
+                <div class="admincontent-row">
+                        <!-- Window 1 -->
+                        <div class="admincontent-col">
+                            
+                            <img src="adminimages/travelpackages.png" class="mainimage1" alt="">
+                            
+                            <div class="row">
+                                <h3>Travel Packages</h3>
+                            </div>
+                            
+                            <div class="admincol">
+                                <a href="viewpackages.php" target="_blank"><input type="button" class="mainclick" value="View Packages"></a><br><br>    
+                                <a href="createnew.php" target="_blank"><input type="button" class="mainclick" value="Create New Package"></a><br><br>
+                                <a href="packagedetails.php" target="_blank"><input type="button" class="mainclick" value="Edit Existing Package"></a>
+                            </div>
+                        </div>
+                        
+                        <!-- Window 2 -->
+                        <div class="admincontent-col">
+                            
+                            <img src="adminimages/managebookings.png" class="mainimage2" alt="">
+
+                            <div class="row">
+                                <h3>Manage Bookings</h3>
+                            </div>
+                            
+                            <div class="admincol">
+                                <input type="button" onclick="viewBooking()" class="mainclick" value="View Bookings"><br><br>
+                                <input type="button" class="mainclick" value="Update Booking Status"><br><br>
+                                <input type="button" class="mainclick" value="Manage Cancellations">
+                            </div>
+                        </div>
+        
+                        <!-- Window 3 -->
+                        <div class="admincontent-col">
+                            
+                            <img src="adminimages/manageusers.png" class="mainimage3" alt="">
+
+                            <div class="row">
+                                <h3>Manage Users</h3>
+                            </div>
+                            
+                            <div class="admincol">
+                                <input type="button" onclick="viewUser()" class="mainclick" value="View User List"><br><br>
+                                <input type="button" onclick="viewUser()" class="mainclick" value="Update User"><br><br>
+                                <input type="button" onclick="viewUser()" class="mainclick" value="Delete User">
+                            </div>
+                        </div>
+        
+                        <!-- Window 4 -->
+                        <div class="admincontent-col">
+                            
+                            <img src="adminimages/reportsandanalytics.png" class="mainimage4" alt="">
+
+                            <div class="row">
+                                <h3>Manage Notices</h3>
+                            </div>
+                            
+                            <div class="admincol">
+                                <input type="button" onclick="insertNotice()" class="mainclick" value="Add Notices"><br><br>
+                                <input type="button" onclick="updateNotice()" class="mainclick" value="Update Notices"><br><br>
+                                <input type="button" onclick="viewNotice()" class="mainclick" value="Delete Notices">
+                            </div>
+                        </div>
+        
+                        <!-- Window 5 -->
+                        <div class="admincontent-col">
+                            
+                            <img src="adminimages/settingsandmanagement.png" class="mainimage5" alt="">
+
+                            <div class="row">
+                                <h3>Manage Transportations</h3>
+                            </div>
+                            
+                            <div class="admincol">
+                                <input type="button" onclick="viewTransportation()" class="mainclick" value="View Transportation Details"><br><br>
+                                <input type="button" onclick="updateTransportation()" class="mainclick" value="Update Transportation"><br><br>
+                                <input type="button" onclick="deleteTransportation()" class="mainclick" value="Delete Transportation">
+                            </div>
+                        </div>
+                </div>
+        </section>
+
+ <!-- Admin Page Content Ends From Here -->       
+
+    </section>
+
+    <!---header is over from here---->
+
+    
+    <footer class="footer">
+        <div class="footer_container">
+            <div class="footer_row">
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">our services</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">affiliate program</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">shipping</a></li>
+                        <li><a href="#">returns</a></li>
+                        <li><a href="#">order status</a></li>
+                        <li><a href="#">payment options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>online shop</h4>
+                    <ul>
+                        <li><a href="#">watch</a></li>
+                        <li><a href="#">bag</a></li>
+                        <li><a href="#">shoes</a></li>
+                        <li><a href="#">dress</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </footer>
+    
+    <script>
+        function viewBooking(){
+            window.location.href = "../sandaru/php/read.php"
+        }
+
+        function viewUser(){
+            window.location.href = "../read.php"
+        }
+
+        function viewNotice(){
+            window.location.href = "../omaya/display_data.php"
+        }
+
+        function insertNotice(){
+            window.location.href = "../omaya/newForm.php"
+        }
+
+        function viewTransportation(){
+            window.location.href = "../nimasha/read.php"
+        }
+        
+        function updateTransportation(){
+            window.location.href = "../nimasha/update(booking).php"
+        }
+        function deleteTransportation(){
+            window.location.href = "../nimasha/Delete(booking).php"
+        }
+    </script>
+    
+</body>
+</html>

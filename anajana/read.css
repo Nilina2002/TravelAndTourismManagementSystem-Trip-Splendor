@@ -1,0 +1,33 @@
+.editclick{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    box-sizing: border-box; 
+}
+
+.deleteclick{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    box-sizing: border-box; 
+}
+
+
+.editclick,
+.deleteclick{
+    background-color: rgb(255, 251, 0);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.editclick:hover{
+    background-color: green;
+}
+.deleteclick:hover {
+    background-color: red; 
+}

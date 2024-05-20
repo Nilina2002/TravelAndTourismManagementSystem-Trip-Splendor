@@ -1,0 +1,85 @@
+/*  Registration Number: IT23386518
+    Name: A.J.Liyanagamage          */
+
+.admincontent-row{
+    display: flex;
+    justify-content: center;
+    left: 10%;
+}
+
+.row{
+    width: 200px;
+    height: 60px;
+    background-color: transparent;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-content: center;
+}
+
+.admincol{
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+    
+}
+
+.mainimage1{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.mainimage2{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.mainimage3{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.mainimage4{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.mainimage5{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.admincontent-col{
+    flex-basis: 10%;
+    background: #807f7f;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px 12px;
+    left: 10%;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.mainclick{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid rgb(97, 3, 3);
+    border-radius: 5px;
+    font-size: 12px;
+    background: transparent;
+    justify-content: center;
+ 
+    cursor: pointer;
+    padding: 10px;
+    width: 200px;
+}
+
+.mainclick:hover{
+    border: 3px solid #f7f7f7;
+    background: #0163ac;
+    transition: 0.1s;
+}

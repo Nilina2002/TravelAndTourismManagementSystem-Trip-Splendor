@@ -1,0 +1,186 @@
+.container{
+    background-image: linear-gradient(rgba(21, 30, 4, 0.729),rgba(4,9,30,0.7)),url(images/elizeu-dias-SEq9dyZSe6c-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 0px;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: center;
+    text-align: center;
+}
+
+body{
+    background: #02606f;
+    font-family: montserrat;
+
+}
+
+.search {
+    margin-bottom:200px;
+}
+
+.booking-section {
+    margin-bottom: 20px;
+}
+
+.booking-button {
+    display: block;
+    width: 200px;
+    margin: 0 auto; /* Center the button horizontally */
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.booking-button:hover {
+    background-color: #0056b3;
+}
+
+.head1{
+    position :absolute;
+    top : 2000px;
+    justify-content: left;
+    font-size: 20px;
+    margin-left: 200px;
+    text-align: left;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    left: 10%;
+    margin-top: 50px;
+}
+
+
+.container-col{
+    flex-basis: 10%;
+    background:  #eb04c501;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 0px;
+    left: 10%;
+    box-shadow: 5px 5px 20px black;
+}
+
+.container-col img{
+    
+    display: flex;
+    border-radius: 10px;
+}
+
+.container-col a{
+    text-decoration: none;
+    border: 1px solid #390c3cdd;
+    background-color:#ac0126 ;
+    padding: 0;
+    border-radius:0;
+    text-align: center;
+}
+
+.container-col p{
+    padding: 0px;
+}
+
+.ime{
+    width: 400px;
+    height: 250px;
+}
+
+.head2{
+    position :absolute;
+    top : 1815px;
+    justify-content: left;
+    color: black;
+    font-size: 22px;
+    margin-left: 0;
+}
+.row2{
+    display: flex;
+    justify-content: center;
+    left: 10%;
+    margin-top: 95px;
+}
+
+.container-col2{
+    flex-basis: 10%;
+    background: #032449;
+    border-radius: 10px;
+    margin: 20px;
+    padding:0;
+    left: 10%;
+    margin-top: 2;
+    box-shadow: 5px 5px 20px black;
+}
+
+.container-col2 img{
+    
+    display: flex;
+    border-radius: 10px;
+}
+
+.container-col2 a{
+    text-decoration: none;
+    border: 1px solid #421b40ea;
+    background-color:#0163ac ;
+    padding: 0;
+    border-radius:0;
+}
+
+.container-col2 p{
+    padding: 0px;
+}
+
+.head3{
+    position :absolute;
+    top : 2200px;
+    justify-content: left;
+    color: black;
+    font-size: 27px;
+    margin-left: 0px;
+
+}
+.row3{
+    display: flex;
+    justify-content: center;
+    left: 20%;
+    margin-top: 95px;
+}
+
+.container-col3{
+    flex-basis: 10%;
+    background: #032449;
+    border-radius: 10px;
+    margin: 20px;
+    padding:0;
+    left: 10%;
+    margin-top: 0;
+    box-shadow: 5px 5px 20px black;
+}
+
+.container-col3 img{
+    
+    display: flex;
+    border-radius: 10px;
+}
+
+.container-col3 a{
+    text-decoration: none;
+    border: 1px solid #7fac01;
+    background-color:#0163ac ;
+    padding: 0;
+    border-radius:0;
+}
+
+.container-col3 p{
+    padding: 0px;
+}
+
+/* N.N.Ranawana
+IT23229952 */
+
